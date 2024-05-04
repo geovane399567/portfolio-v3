@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    max-width: 690px;
+
+}
+
+.header > .photo {
+    width: 50%;
+    height: auto;
+}
+
+.header > .photo > .my-photo {
+    width: 9.375rem;
+    height: 9.375rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.header > .primary-data {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+}
+
+.header > .primary-data > ul {
+    list-style: none;
+    line-height: 1.685rem;
+}
+
+@font-face {
+    font-family: Neue Machina;
+    src: url(/portfolio-v3/assets/fontes/NeueMachina-Regular.otf);
+}
+.header > .primary-data > .title {
+    font-family: 'Neue Machina', sans-serif;
+}

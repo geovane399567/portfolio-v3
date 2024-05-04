@@ -1,0 +1,16 @@
+.educacao-sub-content {
+   display: none;
+   flex-direction: column;
+   max-width: 100%;
+   height: auto;
+   padding: 3rem;
+   gap: 2rem;
+
+}
+
+.educacao-sub-content > .dio-symbols {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.685rem;
+}

@@ -1,0 +1,15 @@
+.idiomas-sub-content {
+display: none;
+flex-direction: row;
+max-width: 100%;
+
+
+}
+
+.idiomas-list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    line-height: 1.254rem;
+    padding: 1.675rem;
+}
