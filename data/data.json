@@ -1,0 +1,83 @@
+{
+    
+"name": "Geovane Oliveira Alves",
+"age": 44,
+"location": "Porto Alegre - RS",
+"photo": "assets/images/my-photo.png",
+"job": "Estudante de Desenvolvimento front end",
+"email": "go399567@gmail.com",
+"linkedin": "https://www.linkedin.com/in/geovane-oliveira-alves-335b71211/",
+"skills": [
+  {
+    "name": "HTML 5",
+    "logo": "/portfolio-v3/data/images/html.png"
+      },
+      {
+        "name": "CSS 3",
+        "logo": "/portfolio-v3/data/images/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "/portfolio-v3/data/images/javascript.png"
+      }
+
+],
+"idiomas": [
+    
+        "Português BR",
+      "Inglês (intermediário)"
+    
+],
+
+"sofSkills": [
+    "Criatividade",
+    "Disposição para aprender mais",
+    "Resiliência",
+    "Trabalho em equipe",
+    "Flexibilidade",
+    "Organização"
+
+],
+
+"portfolio": [
+
+    {
+        "name": "Desenvolvimento da Pokedex no curso JavaScript Developer da DIO",
+        "url": "https://github.com/geovane399567/desafio_pokedex_DIO",
+        "github": true
+      },
+      {
+        "name": "Desenvolvimento de calculadora em JS durante aula da DIO",
+        "url": "https://github.com/geovane399567/calculadora_js_dio.github.com",
+        "github": true
+      }
+],
+
+"cursos": [
+    {
+        "name": "Desenvolvimento web front end",
+        "period": "julho - dezembro de 2023",
+        "school": "Senac Tech Porto Alegre / RS",
+        "topics": " Lógica de Programação, HTML 5, CSS 3, Desenvolvimento de sites responsivos "
+        
+      },
+      {
+        "name": "JavaScript para web: Fundamentos de HTML, CSS e APIs na prática",
+        "period": "Abril de 2024",
+        "school": "Digital Innovation One - DIO",
+        "topics": "Criação de uma aplicação em HTML, CSS e JavaScript, utilizando o método de requisição de dados de uma API na web."
+        
+  
+      },
+      {
+        "name": "Dominando conceitos avançados em JavaScript",
+        "period": "Abril de 2024",
+        "school": "Digital Innovation One - DIO",
+        "topics": "Aprofundamento em conceitos avançados de JavaScript no front end"
+        
+  
+      }
+  
+
+]
+}
