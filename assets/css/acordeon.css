@@ -41,5 +41,5 @@
 }
 
 .acordeon > .skills-sub-content {
-    display: none;
+    display: block;
 }

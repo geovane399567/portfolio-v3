@@ -3,7 +3,7 @@
     flex-direction: row;
     width: 100%;
     height: auto;
-    max-width: 690px;
+    max-width: 800px;
 
 }
 
@@ -12,7 +12,7 @@
     height: auto;
 }
 
-.header > .photo > .my-photo {
+.my-photo {
     width: 9.375rem;
     height: 9.375rem;
     border-radius: 50%;
@@ -25,19 +25,40 @@
 .header > .primary-data {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    height: auto;
+    
+    
 }
 
-.header > .primary-data > ul {
+.primary-data > ul {
     list-style: none;
     line-height: 1.685rem;
+    display: flex;
+    flex-direction: column;
 }
+
+.primary-data > ul > li > a {
+    text-decoration: none;
+    color:blueviolet;
+
+}
+
+
+
+
+.data-list {
+      font-weight: 600;
+      font-style: italic;
+      color: beige;
+      padding-right: .8rem;
+
+}
+
 
 @font-face {
     font-family: Neue Machina;
     src: url(/portfolio-v3/assets/fontes/NeueMachina-Regular.otf);
 }
-.header > .primary-data > .title {
+.title {
     font-family: 'Neue Machina', sans-serif;
+    font-size: 1.8rem;
 }

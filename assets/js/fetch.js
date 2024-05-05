@@ -1,7 +1,7 @@
 async function fetchData(){
-const baseUrl = `data/data.json`;
-const profileDataDetails = await fetch(baseUrl)
-const response = await response.json()
+const baseUrl = "https://raw.githubusercontent.com/geovane399567/portfolio-v3/main/data/data.json";
+const response = await fetch(baseUrl)
+const profileDataDetails = await response.json()
 
 return profileDataDetails
 }

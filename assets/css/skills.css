@@ -25,8 +25,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
-    line-height: 1.685rem;
+    justify-content: space-between;
+    
+}
+
+
+
+.hardSkillsImg {
+    width: 5rem;
+    height: auto;
+
 }
 
 .skills-sub-content > .soft-skills {
