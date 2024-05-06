@@ -22,21 +22,21 @@
     -o-border-radius: 50%;
 }
 
-.header > .primary-data {
+.header > .primaryData {
     display: flex;
     flex-direction: column;
     
     
 }
 
-.primary-data > ul {
+.primaryData > ul {
     list-style: none;
     line-height: 1.685rem;
     display: flex;
     flex-direction: column;
 }
 
-.primary-data > ul > li > a {
+.primaryData > ul > li > a {
     text-decoration: none;
     color:blueviolet;
 

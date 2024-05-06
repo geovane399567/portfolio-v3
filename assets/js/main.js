@@ -17,23 +17,21 @@ function printPrimaryData(profileDataDetails){
   `
 }
 
-function printSkills(profileDataDetails){
+function printHardSkills(profileDataDetails){
      const hardSkills = document.getElementById('hardSkills')
-     hardSkills.innerHTML = profileDataDetails.skills.hardSkills.map(skill => `<li><img class="hardSkillsImg" src=${skill.logo} alt=${skill.name} /></li>`).join('')
+     hardSkills.innerHTML = profileDataDetails.skills.hardSkills.map(skill => `<span class="li_img"><li><img class="hardSkillsImg" src=${skill.logo} alt=${skill.name} /></li></span>`).join('')
+}
 
-     const softSkills = document.getElementById('listSoftSkills')
-     softSkills.innerHTML = profileDataDetails.skills.softSkills.map(skill => 
-        `
-        <li>${skill}</li>
-                        
-        `).join('')
+function printSoftSkills(profileDataDetails){
+     const softSkills = document.getElementById('softSkills')
+     softSkills.innerHTML = profileDataDetails.skills.softSkills.map(skill => `<li><span>${skill}</span></li>`).join('')
 
 }
 
 (async () => {
   const profileDataDetails = await fetchData()
   printPrimaryData(profileDataDetails)
-  printSkills(profileDataDetails)
-
+  printHardSkills(profileDataDetails)
+  printSoftSkills(profileDataDetails)
 
 })()

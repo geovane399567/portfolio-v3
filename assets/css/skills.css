@@ -1,26 +1,23 @@
 
-.skills-sub-content {
+.skillsSubContent {
      display: flex;
      flex-direction: row;
-     max-width: 100%;
+     width: 100%;
      height: auto;
 }
-
-.skills-sub-content > .hard-skills {
-        display: flex;
-        flex-direction: column;
-        max-width: 50%;
+.hardSkills {
+        width: 50%;
         height: auto;
         gap: .65rem;
         padding: 1.233rem;
 }
 
-.skills-sub-content > .hard-skills > h2 {
+.hardSkills > h2 {
     font-weight: 700;
     font-size: 1.234rem;
 }
 
-.skills-sub-content > .hard-skills > .img-skills {
+.imgSkills {
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -29,7 +26,10 @@
     
 }
 
+.li_img {
+    padding: 3rem;
 
+}
 
 .hardSkillsImg {
     width: 5rem;
@@ -37,21 +37,23 @@
 
 }
 
-.skills-sub-content > .soft-skills {
-    display: flex;
-        flex-direction: column;
-        max-width: 50%;
+
+
+.softSkills {
+        width: 50%;
         height: auto;
         gap: .65rem;
         justify-content: center;
+        padding: 3rem;
 }
-
-.skills-sub-content > .soft-skills > h2 {
+.softSkills  h2 {
     font-weight: 700;
     font-size: 1.234rem;
 }
 
-.skills-sub-content > .soft-skills > .list-soft-skills {
+.listSoftSkills {
     list-style: none;
     line-height: 1.685rem;
+    
 }
+
