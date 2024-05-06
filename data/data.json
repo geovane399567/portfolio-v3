@@ -11,15 +11,15 @@
    "hardSkills": [
   {
     "name": "HTML 5",
-    "logo": "/portfolio-v3/data/images/html.png"
+    "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
       },
       {
         "name": "CSS 3",
-        "logo": "/portfolio-v3/data/images/css.png"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
       },
       {
         "name": "JavaScript",
-        "logo": "/portfolio-v3/data/images/javascript.png"
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"
       }
 
 ],

@@ -9,11 +9,12 @@ function printPrimaryData(profileDataDetails){
 
   const primaryData = document.getElementById('primaryData')
   primaryData.innerHTML = `
-  <li><span class="data-list">@</span>${profileDataDetails.age} anos.</li>
-  <li><span class="data-list">&</span>${profileDataDetails.location}</li>
-  <li><span class="data-list">#</span>${profileDataDetails.job}</li>
-  <li><span class="data-list">*</span>${profileDataDetails.email}</li>
-  <li><a href=${profileDataDetails.linkedin} target="_blank">Meu perfil no Linkedin</a></li>
+  <li><span class="material-symbols-outlined">cake</span> ${profileDataDetails.age} anos.</li>
+  <li><span class="material-symbols-outlined">location_city</span> ${profileDataDetails.location} </li>
+  <li><span class="material-symbols-outlined">work</span> ${profileDataDetails.job}</li>
+  <li><span class="material-symbols-outlined">mail</span> ${profileDataDetails.email} </li>
+  <li><span class="material-symbols-outlined">link</span>
+  <a href=${profileDataDetails.linkedin} target="_blank">Meu perfil no Linkedin</a></li>
   `
 }
 

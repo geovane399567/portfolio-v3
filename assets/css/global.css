@@ -11,12 +11,6 @@ body {
     color: #fff;
     
 }
-main {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-}
 
 
 
@@ -34,9 +28,10 @@ main {
       -moz-border-radius: 1.45rem;
       -ms-border-radius: 1.45rem;
       -o-border-radius: 1.45rem;
+      
 }
 
-.content {
+.main > .content {
  display: flex;
  flex-direction: column;
  max-width: 100%;

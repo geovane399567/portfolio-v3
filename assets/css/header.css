@@ -10,16 +10,14 @@
 .header > .photo {
     width: 50%;
     height: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .my-photo {
-    width: 9.375rem;
-    height: 9.375rem;
+    width: 15.375rem;
+    height: 15.375rem;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 
 .header > .primaryData {
@@ -29,27 +27,27 @@
     
 }
 
-.primaryData > ul {
+.header > .primaryData > ul {
     list-style: none;
     line-height: 1.685rem;
     display: flex;
     flex-direction: column;
 }
 
-.primaryData > ul > li > a {
+.header > .primaryData > ul > li > a {
     text-decoration: none;
-    color:blueviolet;
+    color:#fff;
 
 }
 
-
-
-
-.data-list {
+.header > .primaryData > .data-list {
       font-weight: 600;
       font-style: italic;
       color: beige;
       padding-right: .8rem;
+      width: 3rem;
+      height: 3rem;
+      
 
 }
 
