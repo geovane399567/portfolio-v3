@@ -1,5 +1,5 @@
 .idiomas-sub-content {
-display: none;
+display: flex;
 flex-direction: row;
 max-width: 100%;
 

@@ -1,5 +1,5 @@
 .educacao-sub-content {
-   display: none;
+   display: flex;
    flex-direction: column;
    max-width: 100%;
    height: auto;

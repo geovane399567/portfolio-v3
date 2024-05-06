@@ -1,5 +1,5 @@
 .portfolio-sub-content {
-      display: none;
+      display: flex;
       flex-direction: column;
       max-width: 100%;
       height: auto;
@@ -8,17 +8,15 @@
 
 }
 
-.portfolio-sub-content > .project-name {
-      text-align: center;
-
+.portfolio-sub-content > .portfolio {
+       list-style: none;
+       display: flex;
+       flex-direction: column;
+       line-height: 5rem;
 }
 
-.portfolio-sub-content > .project-url {
-       text-align: center;
-
-}
-
-.portfolio-sub-content > .project-url a {
-    color: #fff;
-    text-decoration: none;
-}
+.portfolio-sub-content > .portfolio > .project a {
+      text-decoration: none;
+      color: beige;
+      }
+      

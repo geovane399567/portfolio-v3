@@ -43,12 +43,14 @@
 "portfolio": [
 
     {
-        "name": "Desenvolvimento da Pokedex no curso JavaScript Developer da DIO",
+        "name": "Pokedex",
         "url": "https://github.com/geovane399567/desafio_pokedex_DIO",
+        "description": "Projeto desenvolvido na Formação JavaScript Developer na DIO",
         "github": true
       },
       {
-        "name": "Desenvolvimento de calculadora em JS durante aula da DIO",
+        "name": "Calculadora em JavaScript DIO",
+        "description": "Calculadora feita em JavaScript durante aulas de iniciação à linguagem",
         "url": "https://github.com/geovane399567/calculadora_js_dio.github.com",
         "github": true
       }
@@ -81,9 +83,4 @@
 ]}}
   
 
-<<<<<<< HEAD
-
-=======
-]}}
->>>>>>> a7864f711e8e5930c6c061d4aec0dba7ee0f3164
 
