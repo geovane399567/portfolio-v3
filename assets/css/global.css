@@ -22,13 +22,39 @@ body {
       gap: 2vw;
       width: 95vw;
       height: auto;
-      border: .2vw solid #fff;
-      border-radius: 5vw;
-      -webkit-border-radius: 5vw;
-      -moz-border-radius: 5vw;
-      -ms-border-radius: 5vw;
-      -o-border-radius: 5vw;
+      border: .1px solid #525151;
+      border-radius: 30px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      -ms-border-radius: 30px;
+      -o-border-radius: 30px;
 }
+
+.main::before,
+.main::after {
+    content: '';
+    background-image: url('../images/background.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 140vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.main::after {
+    content: '';
+    top: auto;
+    left: auto;
+    bottom: 0;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+
 
 .section_title {
     font-size: 2vw;
@@ -75,13 +101,13 @@ body {
 
 }
 
-@media screen and(min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 
     .main {
         display: flex;
         flex-direction: column;
         margin: 15vh auto;
-        padding: 5vw;
+        padding: 3vw;
         gap: 4vw;
         width: 55vw;
         height: auto;
@@ -93,7 +119,7 @@ body {
         display: flex;
         flex-direction: column;
         margin: 15vh auto;
-        padding: 3vw;
+        padding: 2vw;
         gap: 4vw;
         width: 50vw;
         height: auto;

@@ -9,11 +9,11 @@ function printPrimaryData(profileDataDetails){
 
   const primaryData = document.getElementById('primaryData')
   primaryData.innerHTML = `
-  <li><span class="material-symbols-outlined">cake</span> ${profileDataDetails.age} anos.</li>
-  <li><span class="material-symbols-outlined">location_city</span> ${profileDataDetails.location} </li>
-  <li><span class="material-symbols-outlined">work</span> ${profileDataDetails.job}</li>
-  <li><span class="material-symbols-outlined">mail</span> ${profileDataDetails.email} </li>
-  <li><span class="material-symbols-outlined">link</span>
+  <li><span class="material-symbols-outlined icon">cake</span> ${profileDataDetails.age} anos.</li>
+  <li><span class="material-symbols-outlined icon">location_city</span> ${profileDataDetails.location} </li>
+  <li><span class="material-symbols-outlined icon">work</span> ${profileDataDetails.job}</li>
+  <li><span class="material-symbols-outlined icon">mail</span> ${profileDataDetails.email} </li>
+  <li><span class="material-symbols-outlined icon">link</span>
   <a href=${profileDataDetails.linkedin} target="_blank">Meu perfil no Linkedin</a></li>
   `
 }
@@ -26,7 +26,9 @@ function printSkills(profileDataDetails){
      softSkills.innerHTML = profileDataDetails.skills.softSkills.map(skill => `<li><span>${skill}</span></li>`).join(' ')
 
      const languages = document.getElementById('languages')
-     languages.innerHTML = profileDataDetails.skills.idiomas.map(idioma => `<li><span>${idioma}</span></li>`).join('')
+     languages.innerHTML = profileDataDetails.skills.idiomas.map(idioma => `<li><span class="material-symbols-outlined">
+     done
+     </span><span id="li_lang">${idioma}</span></li>`).join('')
 
      const education = document.getElementById('education')
      education.innerHTML = profileDataDetails.skills.cursos.map(cursos => {  
@@ -47,7 +49,7 @@ function printSkills(profileDataDetails){
      const portfolio = document.getElementById('portfolio')
      portfolio.innerHTML = profileDataDetails.skills.portfolio.map(project =>
        `<li class="project">
-       <h3><a href=${project.url} target="_blank">${project.name}</a></h3>
+       <h3 ${project.github ? 'class="github"' : ''}><a href=${project.url} target="_blank">${project.name}</a></h3>
        <p>${project.description}</p>
        </li>`).join('')
 

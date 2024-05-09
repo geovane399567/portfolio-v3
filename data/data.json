@@ -6,7 +6,6 @@
 "job": "Estudante de Desenvolvimento front end",
 "email": "go399567@gmail.com",
 "linkedin": "https://www.linkedin.com/in/geovane-oliveira-alves-335b71211/",
-
 "skills": {
    "hardSkills": [
   {
@@ -20,13 +19,16 @@
       {
         "name": "JavaScript",
         "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-plain.svg"
+      },
+      {
+        "name": "Visual Studio Code",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
       }
 
 ],
-
 "softSkills": [
     "Criatividade",
-    "Disposição para aprender mais",
+    "Vontade de aprender",
     "Resiliência",
     "Trabalho em equipe",
     "Flexibilidade",
@@ -35,10 +37,8 @@
 ],
 
 "idiomas": [
-    
     "Português BR",
   "Inglês (intermediário)"
-
 ],
 
 "portfolio": [
