@@ -20,7 +20,7 @@ function printPrimaryData(profileDataDetails){
 
 function printSkills(profileDataDetails){
      const hardSkills = document.getElementById('hardSkills')
-     hardSkills.innerHTML = profileDataDetails.skills.hardSkills.map(skill => `<span class="li_img"><li><img class="hardSkillsImg" src=${skill.logo} alt=${skill.name} /></li></span>`).join('')
+     hardSkills.innerHTML = profileDataDetails.skills.hardSkills.map(skill => `<li><img class="hardSkillsImg" src=${skill.logo} alt=${skill.name} /></li>`).join('')
 
      const softSkills = document.getElementById('softSkills')
      softSkills.innerHTML = profileDataDetails.skills.softSkills.map(skill => `<li><span>${skill}</span></li>`).join(' ')

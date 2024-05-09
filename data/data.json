@@ -48,12 +48,6 @@
         "url": "https://github.com/geovane399567/desafio_pokedex_DIO",
         "description": "Projeto desenvolvido na Formação JavaScript Developer na DIO",
         "github": true
-      },
-      {
-        "name": "Calculadora em JavaScript DIO",
-        "description": "Calculadora feita em JavaScript durante aulas de iniciação à linguagem",
-        "url": "https://github.com/geovane399567/calculadora_js_dio.github.com",
-        "github": true
       }
 ],
 

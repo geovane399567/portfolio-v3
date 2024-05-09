@@ -1,55 +1,61 @@
 .header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 2vh;
     width: 100%;
-    height: auto;
-    max-width: 800px;
+    gap: 5vw;
+    
 
 }
 
-.header > .photo {
-    width: 50%;
+.photo {
+    width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
+    
 }
 
 .my-photo {
-    width: 15.375rem;
-    height: 15.375rem;
-    border-radius: 50%;
+    width: 50vw;
+    height: 50vw;
+    border-radius: 50vw;
+    margin: 0 auto;
+    -webkit-border-radius: 50vw;
+    -moz-border-radius: 50vw;
+    -ms-border-radius: 50vw;
+    -o-border-radius: 50vw;
 }
 
-.header > .primaryData {
+.primaryData {
+    width: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+   
     
 }
 
-.header > .primaryData > ul {
+
+.primaryData > ul {
     list-style: none;
-    line-height: 1.685rem;
+    line-height: 1rem;
     display: flex;
+    margin: 0 auto;
     flex-direction: column;
+    font-size: 1rem;
 }
 
-.header > .primaryData > ul > li > a {
+.primaryData > ul > li > a {
     text-decoration: none;
     color:#fff;
 
 }
 
-.header > .primaryData > .data-list {
-      font-weight: 600;
-      font-style: italic;
-      color: beige;
-      padding-right: .8rem;
-      width: 3rem;
-      height: 3rem;
-      
 
-}
 
 
 @font-face {
@@ -58,5 +64,129 @@
 }
 .title {
     font-family: 'Neue Machina', sans-serif;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 576px) {
+    @font-face {
+        font-family: Neue Machina;
+        src: url(/portfolio-v3/assets/fontes/NeueMachina-Regular.otf);
+    }
+    .title {
+        font-family: 'Neue Machina', sans-serif;
+        font-size: 4vw;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .title {
+        font-family: 'Neue Machina', sans-serif;
+        font-size: 2.2rem;
+    }
+
+    .photo {
+        width: 50%;
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+        padding: 3vw;
+    }
+
+    .primaryData {
+        width: 50%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 3vw;
+        
+        
+        
+    }
+
+    .primaryData > ul {
+        list-style: none;
+        line-height: 2vw;
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5vw;
+    }
+    
+    
+    .header {
+        display: flex;
+        flex-direction: row;
+        margin: 0 auto;
+        gap: 1rem;
+        padding-bottom: 2vh;
+        width: 100%;
+       /*
+        margin: 0 auto;
+        padding-bottom: 4rem;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+        gap: 1rem;*/
+    
+    }
+
+
+    .my-photo {
+        width: 30vw;
+        height: 30vw;
+        border-radius: 50vw;
+        -webkit-border-radius: 50vw;
+        -moz-border-radius: 50vw;
+        -ms-border-radius: 50vw;
+        -o-border-radius: 50vw;
+}
+}
+    
+    
+    
+
+
+
+
+
+@media screen and (min-width: 992px) {
+
+    .my-photo {
+        width: 30vw;
+        height: 30vw;
+        border-radius: 50vw;
+        -webkit-border-radius: 50vw;
+        -moz-border-radius: 50vw;
+        -ms-border-radius: 50vw;
+        -o-border-radius: 50vw;
+}
+}
+@media screen and (min-width: 1200px) {
+
+    .my-photo {
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50vw;
+        -webkit-border-radius: 50vw;
+        -moz-border-radius: 50vw;
+        -ms-border-radius: 50vw;
+        -o-border-radius: 50vw;
+}
+}
+@media screen and (min-width: 1400px) {
+    .my-photo {
+        width: 20vw;
+        height: 20vw;
+        border-radius: 50vw;
+        -webkit-border-radius: 50vw;
+        -moz-border-radius: 50vw;
+        -ms-border-radius: 50vw;
+        -o-border-radius: 50vw;
+}
+    
 }

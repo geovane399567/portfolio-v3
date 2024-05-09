@@ -8,13 +8,13 @@
 .hardSkills {
         width: 50%;
         height: auto;
-        gap: .65rem;
-        padding: 1.233rem;
+        
 }
 
-.hardSkills > h2 {
+.hardSkills  h2 {
     font-weight: 700;
-    font-size: 1.234rem;
+    font-size: .834rem;
+    text-align: center;
 }
 
 .imgSkills {
@@ -22,17 +22,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    padding-top: 5rem;
+    gap: 1rem;
     
 }
 
-.li_img {
-    padding: 3rem;
 
-}
 
 .hardSkillsImg {
-    width: 5rem;
+    width: 2rem;
     height: auto;
 
 }
@@ -44,16 +43,106 @@
         height: auto;
         gap: .65rem;
         justify-content: center;
-        padding: 3rem;
+        
 }
 .softSkills  h2 {
     font-weight: 700;
-    font-size: 1.234rem;
+    font-size: .834rem;
+    text-align: center;
 }
 
 .listSoftSkills {
-    list-style: none;
-    line-height: 1.685rem;
+    list-style: disc;
+    line-height: .885rem;
+    font-size: .6rem;
+    padding-top: 3rem;
+    padding-left: 5rem;
     
+}
+
+@media screen and (min-width: 768px) {
+
+    .hardSkillsImg {
+        width: 5rem;
+        height: auto;
+    
+    }
+
+    .imgSkills {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 5rem;
+        gap: 2rem;
+        
+    }
+    
+    .listSoftSkills {
+        list-style:disc;
+        line-height: 1.3rem;
+        font-size: .8rem;
+        padding-top: 5rem;
+        padding-left: 6rem;
+        
+    }
+
+    .hardSkills  h2 {
+        font-weight: 700;
+        font-size: .975rem;
+        text-align: center;
+    }
+
+    .softSkills  h2 {
+        font-weight: 700;
+        font-size: .975rem;
+        text-align: center;
+    }
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .hardSkillsImg {
+        width: 5rem;
+        height: auto;
+    
+    }
+
+    .imgSkills {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 5rem;
+        gap: 2.5rem;
+        
+    }
+    
+    .listSoftSkills {
+        list-style:disc;
+        line-height: 1.5rem;
+        font-size: 1.1rem;
+        padding-top: 5rem;
+        padding-left: 6rem;
+        
+    }
+
+    .hardSkills  h2 {
+        font-weight: 700;
+        font-size: 1.234rem;
+        text-align: center;
+    }
+
+    .softSkills  h2 {
+        font-weight: 700;
+        font-size: 1.234rem;
+        text-align: center;
+    }
+
 }
 
