@@ -57,8 +57,14 @@
     list-style: disc;
     line-height: .8rem;
     font-size: .8rem;
+<<<<<<< HEAD
     margin: 2rem 5rem;
     
+=======
+    padding: 2rem 3rem;
+
+    align-self: center;
+>>>>>>> 275d42efdee4d580d77fa14ea3f2e48cebd84a0d
 
 }
 
