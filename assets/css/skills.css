@@ -7,13 +7,19 @@
 }
 
 
-.hardSkills .softSkills {
+.hardSkills {
     width: 50%;
     height: auto;
     padding: 1rem;
 
 
 
+}
+
+.softSkills {
+    width: 50%;
+    height: auto;
+    padding: 1rem;
 }
 
 .hardSkills h2 {
@@ -52,8 +58,7 @@
     line-height: .8rem;
     font-size: .8rem;
     margin: 2rem 5rem;
-
-    align-self: center;
+    
 
 }
 
