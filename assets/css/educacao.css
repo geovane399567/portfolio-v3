@@ -1,8 +1,96 @@
-
-
 #education {
     list-style: none;
     line-height: 2rem;
-    font-size: .9rem;
+
+
+}
+
+#education p {
+    font-size: .6rem;
+
+}
+
+.p {
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+#education h2 {
+    font-size: .8rem;
+}
+
+@media screen and (min-width: 576px) {
+    #education {
+        list-style: none;
+        line-height: 2rem;
+
+    }
+
+    #education p {
+
+        font-size: .7rem;
+    }
+
+    #education h2 {
+        font-size: .9rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    #education {
+        list-style: none;
+        line-height: 2rem;
+
+
+    }
+
+    #education p {
+        font-size: .8rem;
+
+    }
+
+    #education h2 {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    #education {
+        list-style: none;
+        line-height: 2rem;
+
+
+    }
+
+    #education p {
+        font-size: .9rem;
+
+    }
+
+    #education h2 {
+        font-size: 1.1rem;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    #education {
+        list-style: none;
+        line-height: 2rem;
+
+
+    }
+
+    #education p {
+        font-size: 1rem;
+
+    }
+
+    #education h2 {
+        font-size: 1.2rem;
+    }
 
 }

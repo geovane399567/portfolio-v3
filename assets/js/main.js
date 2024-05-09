@@ -1,5 +1,5 @@
 
-function printPrimaryData(profileDataDetails){
+function printPrimaryData(profileDataDetails) {
 
   const photo = document.getElementById('photo')
   photo.innerHTML = `<img class="my-photo" src=${profileDataDetails.photo} alt=${profileDataDetails.name} />`
@@ -18,37 +18,38 @@ function printPrimaryData(profileDataDetails){
   `
 }
 
-function printSkills(profileDataDetails){
-     const hardSkills = document.getElementById('hardSkills')
-     hardSkills.innerHTML = profileDataDetails.skills.hardSkills.map(skill => `<li><img class="hardSkillsImg" src=${skill.logo} alt=${skill.name} /></li>`).join('')
+function printSkills(profileDataDetails) {
+  const hardSkills = document.getElementById('hardSkills')
+  hardSkills.innerHTML = profileDataDetails.skills.hardSkills.map(skill => `<li><img class="hardSkillsImg" src=${skill.logo} alt=${skill.name} /></li>`).join('')
 
-     const softSkills = document.getElementById('softSkills')
-     softSkills.innerHTML = profileDataDetails.skills.softSkills.map(skill => `<li><span>${skill}</span></li>`).join(' ')
+  const softSkills = document.getElementById('softSkills')
+  softSkills.innerHTML = profileDataDetails.skills.softSkills.map(skill => `<li><span>${skill}</span></li>`).join(' ')
 
-     const languages = document.getElementById('languages')
-     languages.innerHTML = profileDataDetails.skills.idiomas.map(idioma => `<li><span class="material-symbols-outlined">
+  const languages = document.getElementById('languages')
+  languages.innerHTML = profileDataDetails.skills.idiomas.map(idioma => `<li><span class="material-symbols-outlined">
      done
      </span><span id="li_lang">${idioma}</span></li>`).join('')
 
-     const education = document.getElementById('education')
-     education.innerHTML = profileDataDetails.skills.cursos.map(cursos => {  
-      
-      return `
+  const education = document.getElementById('education')
+  education.innerHTML = profileDataDetails.skills.cursos.map(cursos => {
+
+    return `
       <li>
-       <h3 class="school">${cursos.name}</h3>
-                    <p>${cursos.period}</p>
+       <h2 class="school"><span class="material-symbols-outlined">
+       done </span>${cursos.name}</h2>
+                    <p> ${cursos.period}</p>
                     <p>${cursos.school}</p>
-                    <p>${cursos.topics}</p>
+                    
                                       </li>
       
       `
 
-     }).join('')
+  }).join('')
 
 
-     const portfolio = document.getElementById('portfolio')
-     portfolio.innerHTML = profileDataDetails.skills.portfolio.map(project =>
-       `<li class="project">
+  const portfolio = document.getElementById('portfolio')
+  portfolio.innerHTML = profileDataDetails.skills.portfolio.map(project =>
+    `<li class="project">
        <h3 ${project.github ? 'class="github"' : ''}><a href=${project.url} target="_blank">${project.name}</a></h3>
        <span>${project.description}</span>
        </li>`).join('')

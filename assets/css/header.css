@@ -6,7 +6,7 @@
     padding: 2vh;
     width: 100%;
     gap: 5vw;
-    
+
 
 }
 
@@ -15,7 +15,7 @@
     height: auto;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .my-photo {
@@ -35,23 +35,23 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
-    
+
+
 }
 
 
-.primaryData > ul {
+.primaryData>ul {
     list-style: none;
     line-height: 1rem;
     display: flex;
     margin: 0 auto;
     flex-direction: column;
-    font-size: .8rem;
+    font-size: .6rem;
 }
 
-.primaryData > ul > li > a {
+.primaryData>ul>li>a {
     text-decoration: none;
-    color:#fff;
+    color: #fff;
 
 }
 
@@ -67,9 +67,10 @@
     font-family: Neue Machina;
     src: url(/portfolio-v3/assets/fontes/NeueMachina-Regular.otf);
 }
+
 .title {
     font-family: 'Neue Machina', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
 }
 
@@ -79,11 +80,22 @@
         font-family: Neue Machina;
         src: url(/portfolio-v3/assets/fontes/NeueMachina-Regular.otf);
     }
+
     .title {
         font-family: 'Neue Machina', sans-serif;
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         text-align: center;
     }
+
+    .primaryData>ul {
+        list-style: none;
+        line-height: 1rem;
+        display: flex;
+        margin: 0 auto;
+        flex-direction: column;
+        font-size: .7rem;
+    }
+
 
 }
 
@@ -91,7 +103,7 @@
 
     .title {
         font-family: 'Neue Machina', sans-serif;
-        font-size: 1.8rem;
+        font-size: 1.5rem;
         text-align: left;
     }
 
@@ -110,28 +122,28 @@
         flex-direction: column;
         margin: 0 auto;
         padding: 0;
-        justify-content:left;
-        
-        
-        
+        justify-content: left;
+
+
+
     }
 
-    .primaryData > ul {
+    .primaryData>ul {
         list-style: none;
         line-height: 2vw;
         display: flex;
         flex-direction: column;
-        font-size: .9rem;
+        font-size: .8rem;
     }
-    
+
     .icon {
         display: inline-block;
         line-height: normal;
-         padding-right: .5rem;
+        padding-right: .5rem;
 
 
     }
-    
+
     .header {
         display: flex;
         flex-direction: row;
@@ -139,14 +151,7 @@
         gap: 1rem;
         padding-bottom: 2vh;
         width: 100%;
-       /*
-        margin: 0 auto;
-        padding-bottom: 4rem;
-        width: 100%;
-        height: auto;
-        max-width: 100%;
-        gap: 1rem;*/
-    
+
     }
 
 
@@ -158,38 +163,31 @@
         -moz-border-radius: 50vw;
         -ms-border-radius: 50vw;
         -o-border-radius: 50vw;
-}
+    }
 }
 
+
+
 @media screen and (min-width: 992px) {
+
+    .my-photo {
+        width: 25vw;
+        height: 25vw;
+        border-radius: 50vw;
+        -webkit-border-radius: 50vw;
+        -moz-border-radius: 50vw;
+        -ms-border-radius: 50vw;
+        -o-border-radius: 50vw;
+    }
+
     .primaryData ul {
-        font-size: 1.1rem;
+        font-size: 1rem;
 
 
     }
-    
-    
+
 }
-    
-    
-    
 
-
-
-
-
-@media screen and (min-width: 992px) {
-
-    .my-photo {
-        width: 25vw;
-        height: 25vw;
-        border-radius: 50vw;
-        -webkit-border-radius: 50vw;
-        -moz-border-radius: 50vw;
-        -ms-border-radius: 50vw;
-        -o-border-radius: 50vw;
-}
-}
 @media screen and (min-width: 1200px) {
 
     .my-photo {
@@ -200,8 +198,9 @@
         -moz-border-radius: 50vw;
         -ms-border-radius: 50vw;
         -o-border-radius: 50vw;
+    }
 }
-}
+
 @media screen and (min-width: 1400px) {
     .my-photo {
         width: 20vw;
@@ -211,6 +210,6 @@
         -moz-border-radius: 50vw;
         -ms-border-radius: 50vw;
         -o-border-radius: 50vw;
-}
-    
+    }
+
 }

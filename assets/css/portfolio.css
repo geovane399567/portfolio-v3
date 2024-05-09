@@ -8,18 +8,26 @@
 
 }
 
-.portfolio-sub-content > .portfolio {
+.portfolio {
        list-style: none;
        display: flex;
        flex-direction: column;
-       line-height: 5rem;
+       line-height: 2rem;
 }
 
-.portfolio-sub-content > .portfolio > .project a {
-      text-decoration: none;
+.portfolio .project a {
+      text-decoration: underline;
       color: beige;
       }
-      
+
+.portfolio li {
+      font-size: .6rem;
+}
+
+.portfolio li h3 {
+font-size: .8rem;
+
+}
       .portfolio li h3.github::before {
             content: "";
             display: inline-block;
@@ -29,4 +37,17 @@
             background-size: contain;
             background-image: url('../images/icons/github.svg');
             margin-right: .5rem;
+        }
+
+        @media screen and (min-width: 768px) {
+            .portfolio li {
+                  font-size: .8rem;
+            }
+            
+            .portfolio li h3 {
+            font-size: 1rem;
+            
+            }
+       
+
         }

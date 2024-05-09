@@ -1,19 +1,32 @@
 .skills {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 1rem;
 
 }
 
 
-.hardSkills {
-        width: 50%;
-        height: auto;
-        
+.hardSkills .softSkills {
+    width: 50%;
+    height: auto;
+    padding: 1rem;
+
+
+
 }
 
-.hardSkills  h2 {
+.hardSkills h2 {
     font-weight: 700;
-    font-size: .834rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+
+
+.softSkills h2 {
+    font-weight: 700;
+    font-size: 1rem;
     text-align: center;
 }
 
@@ -23,12 +36,10 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    padding-top: 5rem;
+    margin: 2rem 0;
     gap: 1rem;
-    
+
 }
-
-
 
 .hardSkillsImg {
     width: 5rem;
@@ -36,44 +47,59 @@
 
 }
 
-
-
-.softSkills {
-        width: 50%;
-        height: auto;
-        gap: .65rem;
-        justify-content: center;
-        
-}
-.softSkills  h2 {
-    font-weight: 700;
-    font-size: .834rem;
-    text-align: center;
-}
-
 .listSoftSkills {
     list-style: disc;
-    line-height: 2rem;
-    font-size: .6rem;
-    padding-top: 3rem;
-    padding-left: 5rem;
-    
+    line-height: .8rem;
+    font-size: .8rem;
+    margin: 2rem 5rem;
+
+    align-self: center;
+
 }
 
 @media screen and (min-width: 576px) {
     .hardSkillsImg {
-        width: 3rem;
+        width: 5rem;
         height: auto;
+    }
+
+    .listSoftSkills {
+        font-size: 1.2rem;
+        margin: 2rem 5rem;
+        line-height: 1.2rem;
+
+    }
+
+    .softSkills h2 {
+        font-weight: 700;
+        font-size: 1.5rem;
+        text-align: center;
     }
 
 }
 
 @media screen and (min-width: 768px) {
 
-    .hardSkillsImg {
-        width: 5rem;
+    .skills {
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+
+    }
+
+    .hardSkills .softSkills {
+        width: 50%;
         height: auto;
-    
+        padding: 1rem;
+
+
+
+    }
+
+    .hardSkillsImg {
+        width: 2rem;
+        height: auto;
+
     }
 
     .imgSkills {
@@ -82,27 +108,29 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        padding-top: 5rem;
+        padding-top: 3rem;
         gap: 2rem;
-        
-    }
-    
-    .listSoftSkills {
-        list-style:disc;
-        line-height: 2rem;
-        font-size: .8rem;
-        padding-top: 5rem;
-        padding-left: 6rem;
-        
+
+
     }
 
-    .hardSkills  h2 {
+    .listSoftSkills {
+        list-style: disc;
+        line-height: 2rem;
+        font-size: .9rem;
+        padding-top: 3rem;
+        margin: 0 auto;
+
+
+    }
+
+    .hardSkills h2 {
         font-weight: 700;
         font-size: .975rem;
         text-align: center;
     }
 
-    .softSkills  h2 {
+    .softSkills h2 {
         font-weight: 700;
         font-size: .975rem;
         text-align: center;
@@ -117,7 +145,7 @@
     .hardSkillsImg {
         width: 5rem;
         height: auto;
-    
+
     }
 
     .imgSkills {
@@ -128,29 +156,28 @@
         justify-content: center;
         padding-top: 5rem;
         gap: 2.5rem;
-        
-    }
-    
-    .listSoftSkills {
-        list-style:disc;
-        line-height: 2rem;
-        font-size: 1.1rem;
-        padding-top: 5rem;
-        padding-left: 6rem;
-        
+
     }
 
-    .hardSkills  h2 {
+    .listSoftSkills {
+        list-style: disc;
+        line-height: 2rem;
+        font-size: 1rem;
+        padding-top: 5rem;
+        padding-left: 6rem;
+
+    }
+
+    .hardSkills h2 {
         font-weight: 700;
-        font-size: 1.234rem;
+        font-size: 1.1rem;
         text-align: center;
     }
 
-    .softSkills  h2 {
+    .softSkills h2 {
         font-weight: 700;
         font-size: 1.234rem;
         text-align: center;
     }
 
 }
-

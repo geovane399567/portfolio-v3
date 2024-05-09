@@ -1,10 +1,46 @@
 .idiomas-list {
     list-style: none;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     line-height: 1.254rem;
     padding: 1.675rem;
+    font-size: .6rem;
 }
+
 #li_lang {
     padding: 1rem;
+}
+
+
+
+@media screen and (min-width: 576px) {
+
+    .idiomas-list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.254rem;
+        padding: 1.675rem;
+        font-size: .7rem;
+    }
+
+    #li_lang {
+        padding: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    .idiomas-list {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        line-height: 1.254rem;
+        padding: 1.675rem;
+        font-size: .8rem;
+    }
+
+    #li_lang {
+        padding: 1rem;
+    }
 }

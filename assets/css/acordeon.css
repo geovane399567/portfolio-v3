@@ -10,16 +10,17 @@
     border: none;
 
 }
-.btn > span {
-    font-size: 1.245rem;
+
+.btn>span {
+    font-size: 1.3rem;
     font-weight: 700;
     text-align: start;
-}   
+}
 
-.btn > .icon {
-       align-self: self-end;
-       width: 18px;
-       height: 18px;
+.btn>.icon {
+    align-self: self-end;
+    width: 18px;
+    height: 18px;
 
 
 }
@@ -42,17 +43,18 @@
     height: 0;
     opacity: 0;
     transition: opacity .25s ease-in-out;
-   
- 
- }
- .acordeon.open .sub_content {
+
+
+}
+
+.acordeon.open .sub_content {
     display: block;
     padding: 0 1rem 1rem 2rem;
     height: auto;
     opacity: 1;
- }
- 
- .acordeon.open,
+}
+
+.acordeon.open,
 .acordeon:hover {
     background-color: #55569E;
     border-color: #55569E;
@@ -64,19 +66,27 @@
 }
 
 
-@media screen and (min-width: 768px) {
-    .btn > span {
-        font-size: 1.645rem;
+@media screen and (min-width: 576px) {
+    .btn>span {
+        font-size: 1.3rem;
         font-weight: 700;
         text-align: start;
-    }   
-    
-    .btn > .icon {
-           align-self: self-end;
-           width: 24px;
-           height: 24px;
-    
-    
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .btn>span {
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: start;
+    }
+
+    .btn>.icon {
+        align-self: self-end;
+        width: 24px;
+        height: 24px;
+
+
     }
 
 }
