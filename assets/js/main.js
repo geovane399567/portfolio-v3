@@ -50,7 +50,7 @@ function printSkills(profileDataDetails){
      portfolio.innerHTML = profileDataDetails.skills.portfolio.map(project =>
        `<li class="project">
        <h3 ${project.github ? 'class="github"' : ''}><a href=${project.url} target="_blank">${project.name}</a></h3>
-       <p>${project.description}</p>
+       <span>${project.description}</span>
        </li>`).join('')
 
 }

@@ -1,10 +1,10 @@
+.skills {
+    display: flex;
+    flex-direction: row;
 
-.skillsSubContent {
-     display: flex;
-     flex-direction: row;
-     width: 100%;
-     height: auto;
 }
+
+
 .hardSkills {
         width: 50%;
         height: auto;
@@ -31,7 +31,7 @@
 
 
 .hardSkillsImg {
-    width: 2rem;
+    width: 5rem;
     height: auto;
 
 }
@@ -53,11 +53,19 @@
 
 .listSoftSkills {
     list-style: disc;
-    line-height: .885rem;
+    line-height: 2rem;
     font-size: .6rem;
     padding-top: 3rem;
     padding-left: 5rem;
     
+}
+
+@media screen and (min-width: 576px) {
+    .hardSkillsImg {
+        width: 3rem;
+        height: auto;
+    }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -81,7 +89,7 @@
     
     .listSoftSkills {
         list-style:disc;
-        line-height: 1.3rem;
+        line-height: 2rem;
         font-size: .8rem;
         padding-top: 5rem;
         padding-left: 6rem;
@@ -125,7 +133,7 @@
     
     .listSoftSkills {
         list-style:disc;
-        line-height: 1.5rem;
+        line-height: 2rem;
         font-size: 1.1rem;
         padding-top: 5rem;
         padding-left: 6rem;

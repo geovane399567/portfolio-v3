@@ -1,11 +1,3 @@
-.idiomas-sub-content {
-display: flex;
-flex-direction: row;
-max-width: 100%;
-
-
-}
-
 .idiomas-list {
     list-style: none;
     display: flex;
