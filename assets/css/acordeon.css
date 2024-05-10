@@ -11,7 +11,7 @@
 
 }
 
-.btn>span {
+.btn> span {
     font-size: 1.3rem;
     font-weight: 700;
     text-align: start;
@@ -54,6 +54,15 @@
     opacity: 1;
 }
 
+.acordeon.open .icon {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  color: #fff;
+}
+
 .acordeon.open,
 .acordeon:hover {
     background-color: #55569E;
@@ -67,7 +76,7 @@
 
 
 @media screen and (min-width: 576px) {
-    .btn>span {
+    .btn > span {
         font-size: 1.3rem;
         font-weight: 700;
         text-align: start;
@@ -75,16 +84,17 @@
 }
 
 @media screen and (min-width: 768px) {
-    .btn>span {
+    .btn > span {
         font-size: 1.5rem;
         font-weight: 700;
         text-align: start;
     }
 
-    .btn>.icon {
+    .btn .icon {
         align-self: self-end;
         width: 24px;
         height: 24px;
+        color: #fff;
 
 
     }

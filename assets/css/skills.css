@@ -8,16 +8,16 @@
 
 
 .hardSkills {
-    width: 50%;
+    width: 100%;
     height: auto;
     padding: 1rem;
-
+    
 
 
 }
 
 .softSkills {
-    width: 50%;
+    width: 100%;
     height: auto;
     padding: 1rem;
 }
@@ -40,31 +40,26 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0 1rem;
     margin: 2rem 0;
     gap: 1rem;
 
 }
 
 .hardSkillsImg {
-    width: 5rem;
+    width: 3rem;
     height: auto;
 
 }
 
 .listSoftSkills {
     list-style: disc;
-    line-height: .8rem;
-    font-size: .8rem;
-<<<<<<< HEAD
-    margin: 2rem 5rem;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    margin: 2rem 1rem;
     
-=======
-    padding: 2rem 3rem;
-
-    align-self: center;
->>>>>>> 275d42efdee4d580d77fa14ea3f2e48cebd84a0d
 
 }
 
@@ -108,7 +103,7 @@
     }
 
     .hardSkillsImg {
-        width: 2rem;
+        width: 3rem;
         height: auto;
 
     }
